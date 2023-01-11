@@ -1,0 +1,17 @@
+{
+    "python.formatting.provider": "autopep8",
+    "jupyter.jupyterServerType": "local",
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "azureML.defaultWorkspaceId": "/subscriptions/4e19a4ad-b71a-495b-bab6-e83eb44e8ed0/resourceGroups/datacamp/providers/Microsoft.MachineLearningServices/workspaces/datacamp",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test*.py"
+    ]
+}
